@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c29f7c090d8b6a604f78e62c0604678",
+    "content-hash": "fd91e2a25528831dc858bd24be18b8ad",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -574,16 +574,16 @@
         },
         {
             "name": "leealex/telegram-sdk",
-            "version": "v0.1.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/leealex/telegram-sdk.git",
-                "reference": "3ed81de4361dc7de4a950e7b34743f1857f1ff6d"
+                "reference": "b8dc1cde632f04deb4e968bc1a9863ec5cb8cc8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leealex/telegram-sdk/zipball/3ed81de4361dc7de4a950e7b34743f1857f1ff6d",
-                "reference": "3ed81de4361dc7de4a950e7b34743f1857f1ff6d",
+                "url": "https://api.github.com/repos/leealex/telegram-sdk/zipball/b8dc1cde632f04deb4e968bc1a9863ec5cb8cc8e",
+                "reference": "b8dc1cde632f04deb4e968bc1a9863ec5cb8cc8e",
                 "shasum": ""
             },
             "require": {
@@ -595,7 +595,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "TgSdk\\": "src/"
+                    "TelegramSDK\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -609,7 +609,7 @@
                 }
             ],
             "description": "Telegram Bot SDK",
-            "time": "2020-12-22T13:34:21+00:00"
+            "time": "2021-01-06T17:22:31+00:00"
         },
         {
             "name": "psr/http-client",
@@ -5250,7 +5250,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "leealex/telegram-sdk": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
