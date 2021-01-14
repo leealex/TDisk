@@ -2139,12 +2139,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/leealex/telegram-sdk.git",
-                "reference": "72a635b82e1e0f764d4add7db1fbace5cd79d1fc"
+                "reference": "5bc76bcaee9b9a0001f570f91df04e197796abe5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/leealex/telegram-sdk/zipball/72a635b82e1e0f764d4add7db1fbace5cd79d1fc",
-                "reference": "72a635b82e1e0f764d4add7db1fbace5cd79d1fc",
+                "url": "https://api.github.com/repos/leealex/telegram-sdk/zipball/5bc76bcaee9b9a0001f570f91df04e197796abe5",
+                "reference": "5bc76bcaee9b9a0001f570f91df04e197796abe5",
                 "shasum": ""
             },
             "require": {
@@ -2175,7 +2175,7 @@
                 "issues": "https://github.com/leealex/telegram-sdk/issues",
                 "source": "https://github.com/leealex/telegram-sdk/tree/master"
             },
-            "time": "2021-01-14T09:30:29+00:00"
+            "time": "2021-01-14T14:07:55+00:00"
         },
         {
             "name": "myclabs/deep-copy",
