@@ -28,7 +28,7 @@ class DefaultCommand extends Command
     {
         $keyboard = $this->keyboard([
             ['⬆️ Загрузить файл', '🗄 Обзор'],
-        ]);
+        ], ['resize_keyboard' => true]);
 
         $this->bot->sendMessage('This is the default command', 'html', true, $keyboard);
     }
