@@ -56,19 +56,6 @@ $config = [
     'params' => $params,
 ];
 
-if (YII_ENV_DEV) {
-    $config['bootstrap'][] = 'debug';
-    $config['modules']['debug'] = [
-        'class' => 'yii\debug\Module',
-        'allowedIPs' => ['*.*.*.*'],
-    ];
-    $config['bootstrap'][] = 'gii';
-    $config['modules']['gii'] = [
-        'class' => 'yii\gii\Module',
-        'allowedIPs' => ['*.*.*.*'],
-    ];
-}
-
 if (file_exists(__DIR__ . '/web.local.php')) {
     $config = ArrayHelper::merge($config, require __DIR__ . '/web.local.php');
 }
