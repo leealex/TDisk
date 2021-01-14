@@ -45,7 +45,7 @@ class BotController extends Controller
             '⬆️ Загрузить файл' => 'Upload',
             '🗄 Обзор' => 'Browse'
         ]);
-        $bot->run(false, false);
+        $bot->run(true);
 
         return 'ok';
     }
